@@ -1,5 +1,5 @@
 var menuItem ={
-	"id": "WS",
+	"id": "WikiS",
 	"title": "WikiPedia Search",
 	"contexts": ["selection"]
 };
@@ -10,7 +10,7 @@ function fixedEncodeURI (str){
 }
 
 chrome.contextMenus.onClicked.addListener(function(clickData){
-	if (clickData.menuItemId == "WS" && clickData.selectionText){
+	if (clickData.menuItemId == "WikiS" && clickData.selectionText){
 		var wikiUrl ="https://en.wikipedia.org/wiki/" + fixedEncodeURI(clickData.selectionText);
 		var createData = {
 			"url": wikiUrl,

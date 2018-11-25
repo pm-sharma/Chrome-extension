@@ -1,0 +1,23 @@
+{
+"manifest_version": 2,
+"name": "Free - WikiPedia Search Extension",
+"version": "1.0",
+"description": "This is our QUICK WikiPedia SEARCH Extension",
+"icons":{
+	"128": "128icon.png",
+	"48": "48icon.png",
+	"16": "16icon.png"
+},
+"browser_action": {
+		"default_icon": "16icon.png"
+},
+
+"background":{
+	"scripts": ["eventPage.js"],
+	"persistent": true
+},
+"permissions":[
+	"tabs",
+	"contextMenus"
+]
+}

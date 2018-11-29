@@ -1,3 +1,5 @@
+//Wikipedia Search Using One click
+
 var menuItem ={
 	"id": "WikiS",
 	"title": "WikiPedia Search",

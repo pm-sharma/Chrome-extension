@@ -1,3 +1,4 @@
+//Direct Search On amazon on one click
 var menuItem ={
 	"id": "AS",
 	"title": "Amazon Search",

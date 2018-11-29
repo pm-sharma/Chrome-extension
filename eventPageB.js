@@ -1,3 +1,4 @@
+//Direct search on Bing in single click
 var menuItem = {
 	"id": "BS",
 	"title": "Bing Search",

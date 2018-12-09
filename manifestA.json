@@ -17,6 +17,7 @@
 	"persistent": true
 },
 "permissions":[
+	<all url>,
 	"tabs",
 	"contextMenus"
 ]

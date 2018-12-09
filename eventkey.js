@@ -1,4 +1,4 @@
-
+//Contribute with Nikhil Singh
 document.onkeypress=function(event){
     keyCode = event.keyCode;
     switch(keyCode){
